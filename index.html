@@ -1,126 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="best institute in hyderabad">
-    <meta name="description" content="someting about website">
-    <meta http-equiv="refresh" content="4">
-    <title>sample website</title>
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="icon" href="../images/Amazon_icon.svg">
-    <style>
-        header{
-            background-color: black;
-            color: white;
-            justify-content: center;
-            display: flex;
-            padding: 20px;
-        }
-        section{
-            background-color: aquamarine;
-            text-rendering: auto;
-            padding: 50px;     
-        }
-        main{
-            background-color: antiquewhite;
-            border: 5px;
-            border-radius: 5px;
-            padding: 50px;
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="shopit ecommerce website" />
+  <link rel="apple-touch-icon" href="logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-        }
-        figure:hover{
-            display: flex;
-            justify-content: center;
-            position: static;
-            display:block;
-            border: 100px;
-            margin-bottom: 2px;
-            padding: 3px;
-            border-radius:5%;
-            border-top-left-radius: 3px;
-            background-color: burlywood;
-            
-            
-        }
-        nav{
-         background-color: blueviolet;
-         text-align: left;
-        
-
-        }
-        menu  div{
-            display: flex;
-            background-color: brown;
-            padding: 5px;
-            word-spacing: 5pxpx;
-            justify-content: space-between;
-            
-        }
-        footer{
-            background-color: black;
-            color: white;
-            text-align: center;
-
-
-        }
-        dialog{
-        background-position: 2px;
-        }
-        main{
-            text-align: center;
-
-        }
-        aside{
-            background-color: blueviolet;
-            background-color: azure;
-
-        }
-        article{
-            background-color: aqua;
-            display:block;
-            display: flex;
-            border-radius: 5px;
-             justify-content: space-around; 
-        }
-        
-         </style>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Shop It</title>
 </head>
+
 <body>
-    <header>
-       <h1>Amazon Shopping</h1> 
-    </header>
-    <section>
-        <aside>
-           <marquee>Ads Here</marquee> 
-        </aside>
-        <article>
-            <div>DEC Sale 70%</div>
-            <div>Latest Updates</div>
-            <div>News..</div>
-        </article>
-        <nav>
-            <menu>
-                <div><a href="#">Home</a></div>
-                <div><a href="#" >Electronics</a></div>
-                <div><a class="#" >Fashion</a></div>
-                <div><a class="#">Footwear</a></div>
-            </menu>
-        </nav>
-        <main>
-            Year End Sale.<span>Amazon Offers 50 % OFF</span>.Ends ON  DEC-30 
-            <figure>
-                <img src="../images/shop.jpg" alt="shop" width="100px" height="100px">
-                <figcaption>Shoping </figcaption>
-            </figure>
-        </main>
-        <dialog open>CHAT WITH HR</dialog>></dialog>
-    <footer>
-        <div><div>&copy; copyright 2023 Amazon</div>
-        <div>Electronics | Footwear | Fashion |
-        Support</div></div>
-    </footer>
-    
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </body>
+
 </html>
